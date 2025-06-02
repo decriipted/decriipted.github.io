@@ -1,0 +1,16 @@
+baseURL = "https://decriipted.github.io"
+languageCode = "en-us"
+title = "My Hugo Blog"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
