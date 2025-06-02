@@ -1,16 +1,33 @@
-baseURL = "https://decriipted.github.io"
+baseURL = ""
 languageCode = "en-us"
 title = "My Hugo Blog"
 theme = "PaperMod"
-paginate = 10
+
+# Enable posts on the homepage
+paginate = 5
 
 [params]
+  author = "Your Name"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"  # or "dark", "light"
 
 [menu]
+
   [[menu.main]]
     name = "Home"
-    url = "/"
+    url = "https://decriipted.github.io"
     weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
